@@ -27,3 +27,4 @@ public class MathCalculator {
         System.out.println("Результат расчета метода 3 равен: " + sumAllOperations(10, 20));
     }
 }
+
