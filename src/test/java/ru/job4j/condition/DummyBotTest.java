@@ -1,14 +1,13 @@
 package ru.job4j.condition;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class DummyBotTest {
 
     @Test
-    public void WhenGretBot() {
-        String in = "Hi, bot.";
+    public void whenGreetBot() {
+        String in = "Hi, Bot.";
         String result = DummyBot.answer(in);
         String expected = "Hi, SmartAss.";
         assertThat(result).isEqualTo(expected);
