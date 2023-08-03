@@ -12,6 +12,7 @@ class DivideBySixTest {
         String expected = "The number divides by 6.";
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenNumberDivideBy3AndNotEven() {
         int in = 9;
